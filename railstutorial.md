@@ -73,8 +73,21 @@
 
     In the layout title and for the individual view use:
     
-        <% provide(:title, "About") %>
+        <% provide(:title, "Title") %>
 
+3. Set the root route in the routes file with:
+
+        root 'static_pages#home'
+
+4. git add, git commit, git merge branch with master, git push, and git push to heroku, run test suite
+
+### What we've learned
+1. new app, install gems, push to remote repository, deploy to production
+2. rails g controller
+3. config/routes.rb
+4. views have html or erb
+5. use automated testing to add new features, test for red before creation and then create and refactor to test green
+6. Rails views use a common layout to be DRY
 
 
  
